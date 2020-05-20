@@ -22,7 +22,6 @@ const Card = ({ src, observe, fetchMoreAnimals }) => {
                         fetchMoreAnimals();
                         observer.unobserve(inputEl.current);
                     }
-                    console.log(entry.intersectionRatio);
                 });
 
             }, options);
